@@ -1,0 +1,10 @@
+  <ion-item>
+    <ion-label color="primary" stacked>Correo</ion-label>
+    <ion-input type="text" [(ngModel)]="email"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label color="primary" stacked>Contraseña</ion-label>
+    <ion-input type="password" [(ngModel)]="password"></ion-input>
+  </ion-item>
+<button ion-button round block (click)="login()">Login</button>
